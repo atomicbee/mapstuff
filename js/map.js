@@ -1,11 +1,11 @@
 
 //mapbox layer - because it's pretty
-var base1 = L.tileLayer('http://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ3NodXN0ZXJtYW4iLCJhIjoianF6b3FzWSJ9.D8-79Fb73kS6xXRN5h630g', {
+var base1 = L.tileLayer('http://api.tiles.mapbox.com/v4/mapbox.outdoors/{z}/{x}/{y}.png?access_token=', {
     attribution: 'MapBox',
     maxZoom: 18
 });
 
-var base2 = L.tileLayer('http://api.tiles.mapbox.com/v4/mapbox.pirates/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZ3NodXN0ZXJtYW4iLCJhIjoianF6b3FzWSJ9.D8-79Fb73kS6xXRN5h630g', {
+var base2 = L.tileLayer('http://api.tiles.mapbox.com/v4/mapbox.pirates/{z}/{x}/{y}.png?access_token=', {
     attribution: 'MapBox',
     maxZoom: 18
 });
